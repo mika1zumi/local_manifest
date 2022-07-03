@@ -6,7 +6,7 @@
         fetch="https://github.com/mika1zumi />
 
         <remote name="ar"
-        fetch="https://github.com/ArrowOS />
+        fetch="https://github.com/ArrowOS" />
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
