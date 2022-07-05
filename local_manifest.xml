@@ -13,11 +13,18 @@
         
         <remote name="profile"
         fetch="https://github.com/Tester9958" />
+        
+        <remote name="ATBlastDon"
+        fetch="https://github.com/ATBlastDon" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="android_device_asus_X00T" remote="mi" revision="arrow-12.1" />
         <project path="vendor/asus" name="android_vendor_asus_X00T" remote="ad" revision="arrow-12.1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_X00T" remote="ad" revision="arrow-12.1" />
+        
+        <!-- Remove HALs -->
+        <remove-project name="Spark-Rom/external_Camera" />
+        <remove-project name="Spark-Devices/android_hardware_qcom_display" />
 
         <!-- Add Project -->
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" remote="sd" revision="sdm660-4.19-S" />
@@ -26,5 +33,6 @@
         
         <!-- Packages -->
         <project path="android/packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="profile" revision="arrow-12.1"/>
+        <project path="packages/apps/GcamGOPrebuilt" name="android_packages_apps_GcamGOPrebuilt" remote="ad" revision="arrow-12.1" />
         
 </manifest>
