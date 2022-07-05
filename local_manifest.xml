@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+        <remote name="mi"
+        fetch="https://github.com/mika1zumi" />
+        
+        <remote name="ad"
+        fetch="https://github.com/ArrowOS-Devices" />
+        
+        <remote name="sd"
+        fetch="https://gitlab.com/asus-sdm660-4.19" />
+        
+        <remote name="profile"
+        fetch="https://github.com/Tester9958" />
+
+        <!-- Sync trees -->
+        <project path="device/asus/X00T" name="android_device_asus_X00T" remote="mi" revision="arrow-12.1" />
+        <project path="vendor/asus" name="android_vendor_asus_X00T" remote="ad" revision="arrow-12.1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_X00T" remote="ad" revision="arrow-12.1" />
+
+        <!-- Add Project -->
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" remote="sd" revision="sdm660-4.19-S" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" remote="sd" revision="sdm660-4.19-S" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" remote="sd" revision="sdm660-4.19-S" />
+        
+        <!-- Packages -->
+        <project path="android/packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="profile" revision="arrow-12.1"/>
+        
+</manifest>
