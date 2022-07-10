@@ -5,22 +5,19 @@
         <remote name="mi"
         fetch="https://github.com/mika1zumi" />
         
-        <remote name="ad"
-        fetch="https://github.com/ArrowOS-Devices" />
+        <remote name="ar"
+        fetch="https://github.com/ArrowOS" />
         
-        <remote name="sd"
-        fetch="https://gitlab.com/asus-sdm660-4.19" />
-        
-        <remote name="profile"
-        fetch="https://github.com/Tester9958" />
-        
-        <remote name="ATBlastDon"
-        fetch="https://github.com/ATBlastDon" />
+        <remote name="tm"
+        fetch="https://github.com/TheMuppets" />
+
+        <remote name="ped"
+        fetch="https://github.com/PixelExperience-Devices" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="android_device_asus_X00T" remote="mi" revision="arrow-12.1" />
-        <project path="vendor/asus" name="android_vendor_asus_X00T" remote="ad" revision="arrow-12.1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_X00T" remote="ad" revision="arrow-12.1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="mi" revision="twelve" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="lineage-19.1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_X00T" remote="ped" revision="twelve-x00td" />
 
         <!-- Add Project -->
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" remote="sd" revision="sdm660-4.19-S" />
