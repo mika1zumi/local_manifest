@@ -17,7 +17,7 @@
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="mi" revision="twelve" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="lineage-19.1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_X00T" remote="ped" revision="twelve-x00td" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="ped" revision="twelve-x00td" />
 
         <!-- Nice -->
         <remove-project name="xd_hardware_qcom-caf_audio" />
