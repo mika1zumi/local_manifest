@@ -19,13 +19,14 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="lineage-19.1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_X00T" remote="ped" revision="twelve-x00td" />
 
+        <!-- Nice -->
+        <remove-project name="xd_hardware_qcom-caf_audio" />
+        <remove-project name="xd_hardware_qcom-caf_media" />
+        <remove-project name="xd_hardware_qcom-caf_display" />
+
         <!-- Add Project -->
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" remote="sd" revision="sdm660-4.19-S" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" remote="sd" revision="sdm660-4.19-S" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" remote="sd" revision="sdm660-4.19-S" />
-        
-        <!-- Packages -->
-        <project path="android/packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="profile" revision="arrow-12.1"/>
-        <project path="packages/apps/GcamGOPrebuilt" name="android_packages_apps_GcamGOPrebuilt" remote="ad" revision="arrow-12.1" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ar" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ar" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ar" revision="arrow-12.1-caf-msm8998" />
         
 </manifest>
