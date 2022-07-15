@@ -35,6 +35,5 @@
 
         <!-- Own -->
         <project path="android/packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="ar" revision="arrow-12.1" />
-        <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="at" revision="eleven" />
 
 </manifest>
