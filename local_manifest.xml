@@ -8,7 +8,7 @@
         <remote name="ar"
         fetch="https://github.com/ArrowOS" />
         
-        <remote name="404"
+        <remote name="shi"
         fetch="https://github.com/P404-Devices" />
 
         <remote name="at"
@@ -16,8 +16,8 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_XOOT" remote="mi" revision="xdroid" />
-        <project path="vendor/asus" name="vendor_asus" remote="404" revision="shinka" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="404" revision="shinka" />
+        <project path="vendor/asus" name="vendor_asus" remote="shi" revision="shinka" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="shi" revision="shinka" />
 
         <!-- Nice -->
         <remove-project name="xd_hardware_qcom-caf_audio" />
