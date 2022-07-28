@@ -14,6 +14,9 @@
         <remote name="at"
         fetch="https://github.com/ATBlastDon" />
 
+        <remote name="githubtrack"
+        fetch="https://github.com" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_XOOT" remote="mi" revision="xdroid" />
         <project path="vendor/asus" name="vendor_asus" remote="shi" revision="shinka" />
