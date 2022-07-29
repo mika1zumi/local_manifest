@@ -8,32 +8,31 @@
         <remote name="ar"
         fetch="https://github.com/ArrowOS" />
         
-        <remote name="sh"
-        fetch="https://github.com/shreyanshkansara" />
-
-        <remote name="ry"
-        fetch="https://github.com/RyuujiX" />
+        <remote name="shi"
+        fetch="https://github.com/P404-Devices" />
 
         <remote name="at"
         fetch="https://github.com/ATBlastDon" />
 
+        <remote name="githubtrack"
+        fetch="https://github.com" />
+
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="mi" revision="zephyrus" />
-        <project path="vendor/asus" name="vendor_asus_X00TD" remote="sh" revision="awaken" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="ry" revision="r7/hmp" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="mi" revision="zephyrus" />
+        <project path="device/asus/X00T" name="device_asus_XOOT" remote="mi" revision="evolution" />
+        <project path="vendor/asus" name="vendor_asus" remote="shi" revision="shinka" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="shi" revision="shinka" />
 
         <!-- Nice -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <remove-project name="LineageOS/android_hardware_qcom_display" />
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="xd_hardware_qcom-caf_audio" />
+        <remove-project name="xd_hardware_qcom-caf_media" />
+        <remove-project name="xd_hardware_qcom-caf_display" />
 
         <!-- Add Project -->
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ar" revision="arrow-12.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ar" revision="arrow-12.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ar" revision="arrow-12.1-caf-msm8998" />
 
-        <!-- Own -->
+        <!-- Google Camera Go -->
         <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="at" revision="eleven" />
 
 </manifest>
