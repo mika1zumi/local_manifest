@@ -18,7 +18,7 @@
         fetch="https://github.com" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_XOOT" remote="mi" revision="evolution" />
+        <project path="device/asus/X00T" name="device_asus_X00T" remote="mi" revision="evolution" />
         <project path="vendor/asus" name="vendor_asus" remote="shi" revision="shinka" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="shi" revision="shinka" />
 
