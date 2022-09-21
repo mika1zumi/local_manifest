@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <remote name="mi"
+          fetch="https://github.com/mika1zumi" />
+  <remote name="pe"
+          fetch="https://github.com/PixelExperience-Devices" />
+  <remote name="tm"
+          fetch="https://github.com/TheMuppets" />
+
+
+        <!-- Sync trees -->
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="mi" revision="adrod" />
+        <project path="vendor/asus" name="vendor_asus" remote="tm" revision="lineage-19.1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pe" revision="thirdteen-x00td" />
+
+</manifest>
