@@ -8,11 +8,21 @@
           fetch="https://github.com/PixelExperience-Devices" />
   <remote name="tm"
           fetch="https://github.com/TheMuppets" />
+  <remote name="ar"
+          fetch="https://github.com/TheMuppets" />
 
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="mi" revision="adrod" />
         <project path="vendor/asus" name="vendor_asus" remote="tm" revision="lineage-19.1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pe" revision="thirdteen-x00td" />
+
+        <!-- Hardware -->
+        <remove-project name="xd_hardware_qcom-caf_media" />
+        <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" groups="qcom,qcom_media" remote="ar" revision="arrow-13.0-caf-sdm660" />
+        <remove-project name="xd_hardware_qcom-caf_audio" />
+        <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="ar" revision="arrow-13.0-caf-sdm660" />
+        <remove-project name="xd_hardware_qcom-caf_display" />
+        <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="ar" revision="arrow-13.0-caf-sdm660" />
 
 </manifest>
