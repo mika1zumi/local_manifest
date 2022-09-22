@@ -9,7 +9,7 @@
   <remote name="tm"
           fetch="https://github.com/TheMuppets" />
   <remote name="ar"
-          fetch="https://github.com/TheMuppets" />
+          fetch="https://github.com/ArrowOS" />
 
 
         <!-- Sync trees -->
