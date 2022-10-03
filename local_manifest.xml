@@ -6,16 +6,16 @@
           fetch="https://github.com/mika1zumi" />
   <remote name="pe"
           fetch="https://github.com/PixelExperience-Devices" />
-  <remote name="tm"
-          fetch="https://github.com/TheMuppets" />
+  <remote name="kr"
+          fetch="https://github.com/karthik1896" />
   <remote name="ar"
           fetch="https://github.com/ArrowOS" />
 
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="mi" revision="adrod" />
-        <project path="vendor/asus" name="vendor_asus" remote="tm" revision="lineage-19.1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pe" revision="thirdteen-x00td" />
+        <project path="device/asus/X00T" name="device_asus_X00T" remote="mi" revision="13" />
+        <project path="vendor/asus" name="vendor_asus" remote="mi" revision="13" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-2" remote="kr" revision="12" />
 
         <!-- Hardware -->
         <remove-project name="xd_hardware_qcom-caf_media" />
